@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerableTrie", "IEnumerableTrie.csproj", "{03AAF145-5720-4204-B354-F3341470D646}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerableTrie", "IEnumerableTrie\IEnumerableTrie.csproj", "{03AAF145-5720-4204-B354-F3341470D646}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerableTrie.Console", "..\IEnumerableTrie.Console\IEnumerableTrie.Console.csproj", "{8134FD25-51F9-4D16-B582-FAC7CA233656}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerableTrie.Console", "IEnumerableTrie.Console\IEnumerableTrie.Console.csproj", "{8134FD25-51F9-4D16-B582-FAC7CA233656}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
