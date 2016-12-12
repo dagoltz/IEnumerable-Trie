@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -134,6 +135,16 @@ namespace IEnumerableTrie
                 return Enumerable.Empty<T>();
             }
             return node.Values;
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            return GetValuesRecursively(_root).GetEnumerator();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 }

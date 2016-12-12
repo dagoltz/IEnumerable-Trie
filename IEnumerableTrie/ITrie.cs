@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace IEnumerableTrie
 {
-    public interface ITrie<T> where T : class, IHasStringKeys
+    public interface ITrie<T> : IEnumerable<T> where T : class, IHasStringKeys
     {
         void Add(T value);
         void AddRange(IEnumerable<T> value);
