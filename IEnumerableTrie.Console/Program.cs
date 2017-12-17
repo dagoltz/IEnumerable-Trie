@@ -5,10 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CsvHelper;
+using IEnumerableTrie.Simple;
 
 namespace IEnumerableTrie.Console
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {

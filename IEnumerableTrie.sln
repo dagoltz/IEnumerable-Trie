@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerableTrie", "IEnumera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerableTrie.Console", "IEnumerableTrie.Console\IEnumerableTrie.Console.csproj", "{8134FD25-51F9-4D16-B582-FAC7CA233656}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7FF53D45-5E46-4726-A7B7-56C676A8B1C7}"
+	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
+		IEnumerableTrie.nuspec = IEnumerableTrie.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
