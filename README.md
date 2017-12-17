@@ -24,9 +24,10 @@ Once you did, you can create your Trie:
 IEnumerable<Stock> stocks = LoadStocks("NasdaqCompanyList.csv");
 Trie<Stock> trie = new Trie<Stock>(stocks);
 
-// Search for a stock by prefix:
+// Search for a stock by prefix. as this is Ienumrable, we don't iterate over the Trie yet:
 IEnumerable<Stock> results = trie.GetValuesByPrefix("micro");
-foreach(var stock in results)
+// we only want the first 100, and will only iterate over the Trie until we find 100 max
+foreach(var stock in results.Take(10))
 {
     Console.WriteLine(stock);
 }
