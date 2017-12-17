@@ -10,9 +10,10 @@
     <projectUrl>https://github.com/degoltz/IEnumerable-Trie</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>C# implementation of a Trie (prefix tree) that is IEnumerable. You may conduct a prefix tree and not have to run on the trie all the way to it's end - just for the amount of results you need. This is perfect for autocomplete or any other scenario where you may want a fixed amount of results yielded in every search.</description>
+    <summary>C# implementation of a Trie (prefix tree) that is IEnumerable</summary>
     <releaseNotes></releaseNotes>
     <copyright>Copyright &#x00A9; Daniel Goltz.  All rights reserved.</copyright>
-    <tags>Data Structure Trie Generic Search Index Prefix Radix</tags>
+    <tags>Data Structure Trie Generic Search Index Prefix Tree Radix</tags>
   </metadata>
   <files>
 	<file src="IEnumerableTrie\bin\$configuration$\IEnumerableTrie.dll" target="lib\net40\" />

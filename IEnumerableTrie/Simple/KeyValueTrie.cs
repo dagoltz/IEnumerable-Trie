@@ -8,5 +8,10 @@ namespace IEnumerableTrie.Simple
 {
     public class KeyValueTrie<TValue> : Trie<KeyValueTrieNode<TValue>>
     {
+        public KeyValueTrie()
+        {}
+
+        public KeyValueTrie(IEnumerable<KeyValueTrieNode<TValue>> values) : base(values)
+        {}
     }
 }

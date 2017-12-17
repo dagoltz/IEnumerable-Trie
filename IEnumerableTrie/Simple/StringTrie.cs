@@ -8,5 +8,11 @@ namespace IEnumerableTrie.Simple
 {
     public class StringTrie: Trie<StringTrieNode>
     {
+        public StringTrie()
+        {}
+
+        public StringTrie(IEnumerable<StringTrieNode> values)
+            : base(values)
+        {}
     }
 }
